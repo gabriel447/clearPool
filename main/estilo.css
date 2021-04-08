@@ -1,0 +1,183 @@
+/*Reset */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	height: 100%;
+	width: 100%;
+	font-family: Arial, Tahoma, sans-serif;
+}
+/*Menu*/
+nav.menu  {
+	background-color: #404040;
+	padding:12px;
+
+}
+nav.menu li {
+	display: inline-block;
+}
+
+nav.menu a {
+	padding:  20px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold
+}
+
+
+/*Logo*/
+
+header.top {
+	float: right;
+	font-weight: bold;
+
+}
+
+header.top a {
+	padding: 20px;
+	padding-top: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+div.logo  {
+	padding-top: 10px;
+}
+
+/*Banner*/
+
+div.banner {
+	padding: 100px 0;
+	background-image: url('img/home.jpg');
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	min-height: 400px;
+}
+
+div.banner h2 {
+ 	color: black;
+ 	font-size: 120px;
+ 	text-align: center;
+ 	margin: 30px 0;
+}
+
+div.banner p{
+	text-align: center;
+	color: black;
+	font-size: 25px;
+}
+
+/**/
+
+div.servicos {
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+	min-height: 210px;
+}
+
+
+div.servicos h2 {
+  	margin: 0;
+  	text-align: center;
+	padding:10px 2%;
+	background: #404040;
+	color: white;
+	text-decoration: none;
+}
+
+div.servicos ul {
+	padding-top: 20px;
+	width: 400px;
+	height: 270px;
+	list-style: none;
+}
+
+div.servicos li {
+	padding: 10px;
+	font-size: 20px;
+}
+
+
+div.valor_basic, .valor_premium, .valor_gold {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 40px;
+	background-color: #E6E6FA;
+	color: #666;
+}
+
+/*cor do valor dos serviços*/
+div.servicos h1{
+	color: #00B2EE;
+}
+
+/*opacidade da sombra*/
+div.container {
+	box-shadow: 7px 7px 7px -5px;
+}
+
+/*cor do background de contrate*/
+div.container p {
+	background:#BEBEBE;
+	padding: 20px;
+        }
+
+/*cor do botão contrate*/
+div.container a {
+	color: black;
+ 	font-size: 24px;
+	text-decoration: none;
+	font-weight: bold
+
+        }
+	
+/*Rodapé*/
+.end  {
+	text-align: center;
+	background-color: #404040;
+	padding-top: 20px;
+	color: white;
+	padding-bottom: 20px;
+}
+
+
+@media  only screen and (max-width: 1212px) {
+	
+* {
+	flex-direction: column;
+	align-items: center;
+}
+	
+div.banner h2 {
+ 	color: black;
+ 	font-size: 100px;
+ 	text-align: center;
+ 	margin: 30px 0;
+}
+
+div.banner p{
+	text-align: center;
+	color: black;
+	font-size: 20px;
+}
+
+div.container {
+	margin-top: 20px;
+	box-shadow: 7px 7px 7px -5px;
+}
+
+div.logo {
+	padding-top: 12px;
+	font-size: 16px;
+}
+
+
+
