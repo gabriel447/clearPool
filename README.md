@@ -1,3 +1,2 @@
 # portfolio
-https://gabriel447.github.io/portfolio/
-
+layout com html e css
